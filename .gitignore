@@ -1,0 +1,26 @@
+# 🔒 Segredos e Variáveis de Ambiente (CRÍTICO)
+.env*
+.streamlit/secrets*.toml
+
+# 📊 Arquivos de Dados e Planilhas de Teste (Evita vazamento de dados sensíveis)
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+data/
+datasets/
+
+# 🐍 Ambientes Virtuais e Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# 💻 Configurações de IDEs (VS Code, IntelliJ) e Sistema Operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

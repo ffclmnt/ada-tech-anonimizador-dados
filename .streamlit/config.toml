@@ -1,0 +1,12 @@
+[theme]
+base = "dark"
+primaryColor = "#2ea043"
+
+[server]
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = "none"
